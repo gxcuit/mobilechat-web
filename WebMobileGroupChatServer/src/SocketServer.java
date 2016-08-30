@@ -208,9 +208,9 @@ public class SocketServer {
 		}
 	}
 	/**
-	 * 给某一个特定的人发送消息
-	 * @param message	消息
-	 * @param sessionId	收件人
+	 * send message to specific someone
+	 * @param message	
+	 * @param sessionId	
 	 */
 	private void sendMessageToOne(String message,String sessionId,String fromId,String fromName){
 		for (Session s : sessions) {
